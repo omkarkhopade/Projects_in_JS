@@ -96,5 +96,5 @@ document.addEventListener("DOMContentLoaded", () => {
   renderCart();
 });
 
-//localStorage.setItem() saves the cart, 
+//localStorage.setItem() saves the cart , 
 // and JSON.parse(localStorage.getItem("cart")) loads it again after refresh.
