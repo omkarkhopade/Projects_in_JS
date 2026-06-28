@@ -65,6 +65,6 @@ document.addEventListener("DOMContentLoaded", () => {
       saveExpensesTolocal();
       renderExpenses();
       updateTotal();
-    }
+     }
   });
 });
