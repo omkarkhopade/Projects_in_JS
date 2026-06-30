@@ -82,7 +82,7 @@ document.addEventListener("DOMContentLoaded", () => {
     statusText.textContent = `Player ${currentPlayer}'s Turn`;
   }
 
-  
+
   function restartGame() {
     currentPlayer = "X";
     board = ["", "", "", "", "", "", "", "", ""];
@@ -94,5 +94,5 @@ document.addEventListener("DOMContentLoaded", () => {
       cell.textContent = "";
       cell.classList.remove("x" , "o");
     });
-  }
+    }
 });
